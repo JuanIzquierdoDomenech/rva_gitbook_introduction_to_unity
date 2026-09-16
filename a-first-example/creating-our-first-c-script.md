@@ -32,7 +32,7 @@ And it has several elements of interest:
    * Unity applies the concepts of the OO paradigm; however, for Unity to be able to execute the scripts we add to different objects, they must inherit from the `MonoBehaviour` class.
    * In fact, we won't see constructor or destructor methods as such. Unity expects us to work in a somewhat specific way.
 2. <mark style="background-color:green;">Special</mark> [<mark style="background-color:green;">**`Start`**</mark>](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) <mark style="background-color:green;">method</mark>
-   * The code in this method will execute ONLY once, **when the object is activated for the first time** (we can activate and deactivate GameObjects both from the Hierarchy view and during game execution)
+   * The code in this method will execute ONLY once, **when the object is activated for the first time** (i.e., we can activate and deactivate GameObjects both from the Hierarchy view and during game execution)
    * It executes before the first call to `Update`
 3. <mark style="background-color:yellow;">Special</mark> [<mark style="background-color:yellow;">**`Update`**</mark>](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) <mark style="background-color:yellow;">method</mark>
    * This method is automatically invoked when the GameObject is active, **every frame**
