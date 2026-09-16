@@ -13,18 +13,22 @@ The **Project view** allows us to **select and add assets** to the project. Amon
 * Configuration files
 * etc.
 
-Since we’ve just created the project, it currently contains only an **Assets** folder (the **root folder** for all project resources), a **Scenes** folder, and a resource named **SampleScene**, which is of type **Scene Asset** and contains the configuration of the current scene.
+Since we’ve just created the project, it currently contains only an **Assets** folder (the **root folder** for all project resources). Within this folder, there will be a **Scenes** folder, with a resource named **SampleScene**, which is of type **Scene Asset** and contains the configuration of the current open scene (the one that opened when we created the project).
+
+{% hint style="info" %}
+There might be other assets, such a **Settings** folder, with some configurations for the project's rendering pipeline, which we can forget they exist (by now).
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/scene_asset.png" alt=""><figcaption><p>A Scene asset contains all the info about the GameObjects in a scene</p></figcaption></figure>
 
 {% hint style="success" %}
-Try **saving the scene** (Top menu: _File → Sav**e**_), then **create a new one** (**T**op menu: _File → New Scene_), and finally double-click on the **SampleScene** asset.
+Try **saving the scene** (Top menu: _File → Sav**e**_), then **create a new one** (Top menu: _File → New Scene -> Basic (URP)_ template. Then, double-click on the **SampleScene** asset.
 
 This action will **reopen** the previous scene, restoring it exactly as it was when you saved it.
 {% endhint %}
 
 {% hint style="warning" %}
-The project folder structure is flexible — there are no strict “rules” — although it’s common to have folders named **“Scenes”**, **“Scripts”**, **“Textures”**, **“Audios”**, etc.
+The project folder structure is flexible (there are no strict “rules”), although it’s common to have folders named **“Scenes”**, **“Scripts”**, **“Textures”**, **“Audios”**, etc.
 
 However, there are certain [**Special Folder Names**](https://docs.unity3d.com/Manual/SpecialFolders.html) that Unity recognizes and handles in a specific way:
 
@@ -45,7 +49,7 @@ First, download these assets:
 
 If we drag files into the **Project view**, Unity will **import and process them automatically** according to their **file type**.
 
-After the import, we can specify **how Unity should handle each file** — for example:
+After the import, we can specify **how Unity should handle each file**, for example:
 
 * Compression formats
 * Use of alpha channels

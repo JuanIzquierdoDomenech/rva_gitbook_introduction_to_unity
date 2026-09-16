@@ -9,7 +9,7 @@ If we select a **GameObject**, in the **Inspector view** we can observe the **co
 <div><figure><img src="../.gitbook/assets/camera_components.png" alt=""><figcaption><p>Camera components in the <strong>Inspector view</strong></p></figcaption></figure> <figure><img src="../.gitbook/assets/light_components.png" alt=""><figcaption><p>Light components in the <strong>Inspector view</strong></p></figcaption></figure></div>
 
 {% hint style="warning" %}
-Although we’ll see this in more detail later, we can notice that both **GameObjects** share a common component — the **Transform** component — which allows us to specify their **position**, **rotation**, and **scale**.
+Although we’ll see this in more detail later, we can notice that both **GameObjects** share a common component, the **Transform** component, which allows us to specify their **position**, **rotation**, and **scale**.
 
 <p align="center"><img src="../.gitbook/assets/transform_component.png" alt=""></p>
 {% endhint %}

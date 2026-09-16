@@ -33,7 +33,7 @@ The next step is to choose a template, the project name, and the location (we ca
 <figure><img src=".gitbook/assets/creating_project.png" alt=""><figcaption><p>Window to select the unity version, template, project location... The layout may vary a little among Unity Hub versions, but the workflow remains the same</p></figcaption></figure>
 
 1. In <mark style="background-color:red;">Pink</mark>, we have to choose the Unity version from the ones we have installed
-2. In <mark style="background-color:green;">Green</mark>, we need to choose the template (such as _Universal 3D_ in the latest version). The selected template will appear in the top right corner
+2. In <mark style="background-color:green;">Green</mark>, we need to choose the template (choose the _Universal 3D_ one). The selected template will appear in the top right corner
 3. In <mark style="background-color:yellow;">Yellow</mark>, we select the organization (personal), and the location of the project
 
 {% hint style="info" %}
