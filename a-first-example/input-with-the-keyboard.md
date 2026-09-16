@@ -11,9 +11,9 @@ To use the Keyboard in an _easy manner_, we need to enable the old input system.
 
 To do this, we have to:
 
-* Open the Build Profiles window (ctrl + shift + B)
-* Click on the Player Settings button
-* Search for a section called Other Settings (and unfold it)
+* Open the _Build Profiles_ window (ctrl + shift + B)
+* Click on the _Player Settings_ button
+* Search for a section called _Other Settings_ (and unfold it)
 * Inside that section, find the "Active Input Handling\*" property and change it from New to Both
 * Unity will tell you that a restart is needed, so do it
 {% endhint %}

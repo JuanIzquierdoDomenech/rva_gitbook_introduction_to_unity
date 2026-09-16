@@ -19,7 +19,7 @@ Unity uses **meters** and **seconds** as its units of measurement.
 In the example, if we press the right arrow key, we are telling the sphere to move, <mark style="background-color:$danger;">**in 1 frame**</mark><mark style="background-color:$danger;">,</mark> <mark style="background-color:$danger;"></mark><mark style="background-color:$danger;">**1 meter to the right**</mark>, BUT, what we want now is for it to move <mark style="background-color:$success;">**1 meter in 1 second**</mark>.
 
 {% hint style="success" %}
-It’s better for the movement to depend on **time** rather than the **framerate**, because we can’t guarantee a stable frame rate while the game is running—sometimes it would move faster, and other times slower.
+It’s better for the movement to depend on **time** rather than the **framerate**, because we can’t guarantee a stable frame rate while the game is running (sometimes it would move faster, and other times slower).
 {% endhint %}
 
 In Unity, we can use the value `Time.deltaTime` inside the `Update` method to know the fraction of time that has passed between the previous frame (call N-1 to `Update`) and the current frame (call N to `Update`).
