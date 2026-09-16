@@ -14,6 +14,12 @@ layout:
     visible: true
   metadata:
     visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Creating a project
@@ -24,14 +30,20 @@ With Unity Hub open, and with a version of Unity installed, we can create our fi
 
 The next step is to choose a template, the project name, and the location (we can either choose _Universal 3D_ or _3D (Built-In Render Pipeline)_, though the later one is much simpler to start):
 
-<figure><img src=".gitbook/assets/creating_project.png" alt=""><figcaption><p>Window to select the unity version, template, project location...</p></figcaption></figure>
+<figure><img src=".gitbook/assets/creating_project.png" alt=""><figcaption><p>Window to select the unity version, template, project location... The layout may vary a little among Unity Hub versions, but the workflow remains the same</p></figcaption></figure>
 
 1. In <mark style="background-color:red;">Pink</mark>, we have to choose the Unity version from the ones we have installed
-2. In <mark style="background-color:green;">Green</mark>, we need to choose the template. The selecte template will appear in the top right corner
+2. In <mark style="background-color:green;">Green</mark>, we need to choose the template (such as _Universal 3D_ in the latest version). The selected template will appear in the top right corner
 3. In <mark style="background-color:yellow;">Yellow</mark>, we select the organization (personal), and the location of the project
 
-<figure><img src=".gitbook/assets/loading.png" alt=""><figcaption><p>Unity's 6 loading screen</p></figcaption></figure>
+{% hint style="info" %}
+In the later versions, it is also possible to activate a Source control provider (aka GitHub, GitLab...).
+
+![](<.gitbook/assets/vcs_provider (1).png>)
+{% endhint %}
+
+<figure><img src=".gitbook/assets/new_unity_loading_screen.png" alt=""><figcaption><p>Unity's 6 loading screen</p></figcaption></figure>
 
 When the loading screen closes, the Unity editor will appear:
 
-<figure><img src=".gitbook/assets/unity_editor.png" alt=""><figcaption><p>Default layout of the Unity editor</p></figcaption></figure>
+<figure><img src=".gitbook/assets/opening_unity_first_time.png" alt=""><figcaption><p>Default layout of the Unity editor</p></figcaption></figure>
