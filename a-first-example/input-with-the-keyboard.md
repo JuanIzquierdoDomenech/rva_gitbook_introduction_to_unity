@@ -36,6 +36,10 @@ The call to this method will return a negative value (max. -1) or a positive one
 
 <figure><img src="../.gitbook/assets/unity_axes.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" icon="internet-explorer" %}
+If you want to explore the new Input System, it is possible to implement the same behaviour with checks such as `Keyboard.current.rightArrowKey.isPressed`, `Keyboard.current.leftArrowKey.isPressed`, `Keyboard.current.upArrowKey.isPressed` and `Keyboard.current.downArrowKey.isPressed`. All these return a `bool` value, indicating if the button was pressed in that specific frame (0 or 1).
+{% endhint %}
+
 ### Executing the script
 
 To execute the script, we must **add it as a component to a GameObject** in the scene, in this case, to the sphere:
