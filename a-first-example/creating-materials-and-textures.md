@@ -28,11 +28,11 @@ If the same material is assigned to several meshes, and we change the material, 
 
 <figure><img src="../.gitbook/assets/apply_material_updates.gif" alt=""><figcaption><p>These 3 players share the same material</p></figcaption></figure>
 
-* Let's install this package, that gives us some new shader to play with! We need to do it using the Package Manager window (**Window → Package Management → Package Manager**) AND **install the Built-in render** Samples if you want
+* Let's install this package, that gives us some new shader to play with! We need to do it using the Package Manager window (**Window → Package Management → Package Manager**) AND **install the Built-in render** Samples if you want (follow the instructions as specified in the website):
 
-{% embed url="https://docs.unity3d.com/Packages/com.unity.toonshader@0.12/manual/installation.html" %}
+{% embed url="https://docs.unity3d.com/Packages/com.unity.toonshader@0.15/manual/installation.html" %}
 
-* Select the "m\_toonSphere" material, **change its shader from the dropdown above** to "toon" and play with the different values of the shader to adapt the appearance of the sphere!
+* Select the "m\_toonSphere" material, **change its shader from the dropdown on top of the material asset** from "Universal Render Pipeline/Lit" to "Toon/Toon" and play with the different values of the shader to adapt the appearance of the sphere!
 
 <figure><img src="../.gitbook/assets/toon_config.png" alt=""><figcaption></figcaption></figure>
 
@@ -53,12 +53,12 @@ So, let's download this texture and drag it inside a new Textures folder:
 In this case, we're going to apply it on the ground plane.&#x20;
 
 * If you have not done it before, create a new material for the ground
-* Find the "Base Map" and/or "1st Shading Map" inside "Three Color and Control Map Settings"
+* Find the "Base Map" inside "Three Color and Control Map Settings"
 * Drag the texture into that field
 * Make the tiling property bigger
 
 {% hint style="warning" %}
-Depending on the shader and the version of the very own toon package, these names may vary
+Depending on the shader and the version of the very own toon package, these names may vary, so do not blame the teacher.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/grass_apply.gif" alt=""><figcaption></figcaption></figure>
