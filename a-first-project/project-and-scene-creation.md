@@ -2,9 +2,9 @@
 icon: '1'
 ---
 
-# Scene creation
+# Project and scene creation
 
-Create a new Unity project using the _**Universal 3D**_**&#x20;template**, and call it **My first example**:
+Create a new Unity project using the _**Universal 3D**_**&#x20;template**, and call it **Ball Vs Blocks**:
 
 * From the top menu: **File → New Scene -> Basic (URP)**
 * Remove any leftover assets from previous scenes.
