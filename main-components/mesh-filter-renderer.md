@@ -14,7 +14,7 @@ Both components usually work **hand in hand** to define the **geometry** and **v
 
 <figure><img src="../.gitbook/assets/mesh_renderer.gif" alt=""><figcaption></figcaption></figure>
 
-* Unlike when accessing the Transform component, if we want to access other components that are in the same GameObject, one approach is to use the [`GetComponent<T>()`](https://docs.unity3d.com/6000.2/Documentation/ScriptReference/GameObject.GetComponent.html) method:
+* Unlike when accessing the `Transform` component, if we want to access other components that are in the same GameObject, one approach is to use the [`GetComponent<T>()`](https://docs.unity3d.com/6000.2/Documentation/ScriptReference/GameObject.GetComponent.html) method:
 
 ```csharp
 using UnityEngine;
