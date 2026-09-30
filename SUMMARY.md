@@ -20,7 +20,7 @@
   * [Creating Materials and Textures](a-first-project/creating-materials-and-textures.md)
 * [The C# language](the-c-language/README.md)
   * [Type system](the-c-language/type-system/README.md)
-    * [Casting](the-c-language/type-system/casting.md)
+    * [Numeric types and conversions](the-c-language/type-system/numeric-types-and-conversions.md)
     * [Arrays](the-c-language/type-system/arrays.md)
     * [Operators](the-c-language/type-system/operators.md)
     * [Enums](the-c-language/type-system/enums.md)
