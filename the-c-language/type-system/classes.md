@@ -30,9 +30,9 @@ public class ExampleClass : MonoBehaviour
 ```
 
 {% hint style="warning" %}
-Para que un miembro se pueda editar desde el editor de Unity (e.g., la velocidad X y Z de la esfera), ha de ser:
+For a member to be editable within the Unity Editor (e.g., the sphere speed), it must be:
 
-* Variable de instancia
-* Modificador `public`
-* Tipo serializable (la mayoría de tipos lo son, pero hay excepciones, como los diccionarios)
+* an instance variable
+* `public`
+* a serializable type (most of the types are serializable)
 {% endhint %}
