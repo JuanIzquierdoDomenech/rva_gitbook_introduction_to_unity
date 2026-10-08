@@ -5,8 +5,7 @@
 <figure><img src="../.gitbook/assets/canvas_props.png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-The **`CanvasScaler`** component allows you to define a **reference resolution** for designing your interface\
-(for example, an iPad 5th generation in **portrait** orientation).
+The **`CanvasScaler`** component allows you to define a **reference resolution** for designing your interface (for example, an iPad 5th generation in **portrait** orientation).
 
 This ensures that all UI elements automatically **scale up or down** depending on the actual screen size of the target device. As a result, the interface maintains consistent proportions and readability across different resolutions and aspect ratios.
 {% endhint %}
