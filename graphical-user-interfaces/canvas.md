@@ -2,8 +2,7 @@
 
 {% embed url="https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/class-Canvas.html" %}
 
-This element is essentially the **equivalent of Unity’s “world”**, but in **GUI coordinates** (i.e., screen space).\
-It is required for rendering any graphical user interface (GUI) elements on the screen.
+This element is essentially the **equivalent of Unity’s “world”**, but in **GUI coordinates** (i.e., screen space). It is required for rendering any graphical user interface (GUI) elements on the screen.
 
 <figure><img src="../.gitbook/assets/canvas_props (1).png" alt=""><figcaption></figcaption></figure>
 
